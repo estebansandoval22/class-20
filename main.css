@@ -1,0 +1,13 @@
+body{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.ell{
+	 filter: blur(6px);
+}

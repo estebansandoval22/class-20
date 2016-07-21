@@ -2,8 +2,27 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<h1></h1>
+	<div class="wrapper">
+		<h1>Demo SVG</h1>
+
+	   	<SVG width="300" height="200">
+	   		<rect width="100%" height="100%" fill="green" />
+	   		<circle cx="150" cy="100" r="80" fill="red">
+	   			<animate attributeName="cy" from="-80" to="280" dur="6s" repeatCount="indefinite"/>
+	   		</circle>
+	   		<text x="150" y="125" font-size="60" text-anchor="middle" fill="white">
+	   			Hola mundo
+	   		</text>	
+	   	</SVG>	
+
+	   	<SVG width="300" height="200">
+	   		<ellipse id="ell"cx="125" cy="75" rx="50" ry="20" fill="black"/>
+	   		<line xl="10" x2="50" yl="110" y2="150" stroke="black" />
+	   	</SVG>
+	 </div>  	
+	<script src="app.js"></script>
 </body>
 </html>
